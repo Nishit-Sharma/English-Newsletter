@@ -1,10 +1,10 @@
 const BLOG = {
-  title: 'Notionic',
-  author: '左蓝',
-  email: 'i@zuolan.me',
-  link: 'https://zuolan.me',
-  newsletter: 'Notionic Weekly',
-  description: 'A static blog build on top of Notion and Next.js',
+  title: 'English Newsletter',
+  author: 'Nishit, Precious, Reihan, Chris, Gia',
+  email: 'nishit.sharma@mcvts.org',
+  link: 'https://english-newsletter.vercel.app',
+  newsletter: 'Mohrles Musings',
+  description: 'A reflection on Marking Period 2',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -16,24 +16,24 @@ const BLOG = {
   sortByDate: true,
   pagesShow: {
     newsletter: true,
-    notes: true,
-    projects: true,
-    contact: true,
-    books: true,
-    friends: true
+    notes: false,
+    projects: false,
+    contact: false,
+    books: false,
+    friends: false
   },
-  showWeChatPay: true,
+  showWeChatPay: false,
   previewImagesEnabled: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
     twitter: 'https://twitter.com/izuolan',
-    github: 'https://github.com/izuolan',
+    github: 'https://github.com/Nishit-Sharma',
     telegram: 'https://t.me/zuolan'
   },
   seo: {
-    keywords: ['Notionic', 'Zuolan', 'Blog'],
+    keywords: ['Mohrles Musings', 'Nishit, Precious, Reihan, Chris, Gia', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
