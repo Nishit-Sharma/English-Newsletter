@@ -41,8 +41,8 @@ const Hero = ({ blockMap }) => {
           />
           <Social />
           <div className='flex flex-col sm:flex-row sm:justify-center gap-4 mt-6'>
-            <Link passHref href='/contact' scroll={false}>
-              <button className='bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 inline-flex py-3 px-5 rounded-lg items-center'>
+            <Link passHref href='' scroll={false}>
+              <button className=''>
                 <MailIcon className=''/>
                   {/*
                  <span className='ml-4 flex items-start flex-col leading-none'>
