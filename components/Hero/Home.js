@@ -20,9 +20,7 @@ const Collection = dynamic(() =>
 const Hero = ({ blockMap }) => {
   const [showCopied, setShowCopied] = useState(false)
   const { locale } = useRouter()
-  {/*
   const t = lang[locale]
-  */}
 
   const clickCopy = async () => {
     setShowCopied(true)
@@ -62,16 +60,16 @@ const Hero = ({ blockMap }) => {
                 className=''
               >
                 <ClipboardCheckIcon className='' />
-              {/*
+              
                 <span className=''>
-                  <span className='text-xs text-gray-600 dark:text-day mb-1'>
+                  <span className=''>
                     {t.HERO.RSS_BUTTON_DES_COPIED}
                   </span>
-                  <span className='font-medium'>
+                  <span className=''>
                     {t.HERO.RSS_BUTTON_COPIED}
                   </span>
                 </span>
-               */}
+               
               </button>
             ) : (
               <button
