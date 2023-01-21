@@ -63,7 +63,7 @@ const NavBar = () => {
       name: t.NAV.SEARCH,
       to: '/search',
       icon: <SearchIcon className='inline-block mb-1 h-5 w-5' />,
-      show: true
+      show: false
     }
   ]
   return (
