@@ -6,7 +6,7 @@ import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
 import {
-  MailIcon,
+  {/*MailIcon,*/}
   RssIcon,
   ClipboardCheckIcon
 } from '@heroicons/react/outline'
