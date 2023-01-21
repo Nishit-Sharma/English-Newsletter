@@ -41,7 +41,7 @@ const Hero = ({ blockMap }) => {
             recordMap={blockMap}
             components={{ Collection }}
           />
-          <Social />
+{/* <Social /> */}
           <div className='flex flex-col sm:flex-row sm:justify-center gap-4 mt-6'>
             <Link passHref href='' scroll={false}>
               <button className=''>
