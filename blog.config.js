@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'English Newsletter',
+  title: 'Mohrles Musings',
   author: 'Nishit, Precious, Reihan, Chris, Gia',
   email: 'nishit.sharma@mcvts.org',
   link: 'https://english-newsletter.vercel.app',
