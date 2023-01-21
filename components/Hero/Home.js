@@ -12,6 +12,7 @@ import {
 } from '@heroicons/react/outline'
 import dynamic from 'next/dynamic'
 import { NotionRenderer } from 'react-notion-x'
+import { NewspaperIcon } from '@heroicons/react/outline'
 
 const Collection = dynamic(() =>
   import('react-notion-x/build/third-party/collection').then((m) => m.Collection), { ssr: true }
@@ -87,8 +88,8 @@ const Hero = ({ blockMap }) => {
             )}
           </div>
         </div>
-        <div className=''>
-          <Avatar className='' />
+        <div className='w-2/5'>
+          <NewspaperIcon className='object-cover object-center text-gray-500 dark:text-gray-300' />
         </div>
       </div>
     </>
