@@ -20,7 +20,9 @@ const Collection = dynamic(() =>
 const Hero = ({ blockMap }) => {
   const [showCopied, setShowCopied] = useState(false)
   const { locale } = useRouter()
+  {/*
   const t = lang[locale]
+  */}
 
   const clickCopy = async () => {
     setShowCopied(true)
