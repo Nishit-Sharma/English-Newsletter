@@ -57,10 +57,8 @@ const Hero = ({ blockMap }) => {
             {showCopied ? (
               <button
                 disabled
-                className=''
-              >
+                className=''>
                 <ClipboardCheckIcon className='' />
-              
                 <span className=''>
                   <span className=''>
                     {t.HERO.RSS_BUTTON_DES_COPIED}
@@ -69,7 +67,6 @@ const Hero = ({ blockMap }) => {
                     {t.HERO.RSS_BUTTON_COPIED}
                   </span>
                 </span>
-               
               </button>
             ) : (
               <button
