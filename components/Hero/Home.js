@@ -57,10 +57,11 @@ const Hero = ({ blockMap }) => {
             {showCopied ? (
               <button
                 disabled
-                className='bg-gray-200 dark:bg-gray-600 inline-flex py-3 px-5 rounded-lg items-center'
+                className=''
               >
-                <ClipboardCheckIcon className='inline-block text-gray-600 dark:text-day h-7 w-7' />
-                <span className='ml-4 flex items-start flex-col leading-none'>
+                <ClipboardCheckIcon className='' />
+              {/*
+                <span className=''>
                   <span className='text-xs text-gray-600 dark:text-day mb-1'>
                     {t.HERO.RSS_BUTTON_DES_COPIED}
                   </span>
@@ -68,6 +69,7 @@ const Hero = ({ blockMap }) => {
                     {t.HERO.RSS_BUTTON_COPIED}
                   </span>
                 </span>
+               */}
               </button>
             ) : (
               <button
