@@ -72,15 +72,17 @@ const Hero = ({ blockMap }) => {
             ) : (
               <button
                 onClick={() => clickCopy()}
-                className='bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 inline-flex py-3 px-5 rounded-lg items-center'
+                className=''
               >
-                <RssIcon className='inline-block text-gray-600 dark:text-day h-7 w-7' />
-                <span className='ml-4 flex items-start flex-col leading-none'>
+                <RssIcon className='' />
+                  {/*
+                 <span className='ml-4 flex items-start flex-col leading-none'>
                   <span className='text-xs text-gray-600 dark:text-day mb-1'>
                     {t.HERO.RSS_BUTTON_DES}
                   </span>
                   <span className='font-medium'>{t.HERO.HOME.RSS_BUTTON}</span>
                 </span>
+               */}
               </button>
             )}
           </div>
