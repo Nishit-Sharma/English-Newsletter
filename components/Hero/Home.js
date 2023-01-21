@@ -7,11 +7,11 @@ import { useState } from 'react'
 import {
   MailIcon,
   RssIcon,
-  ClipboardCheckIcon
+  ClipboardCheckIcon,
+  NewspaperIcon
 } from '@heroicons/react/outline'
 import dynamic from 'next/dynamic'
 import { NotionRenderer } from 'react-notion-x'
-import { NewspaperIcon } from '@heroicons/react/outline'
 
 const Collection = dynamic(() =>
   import('react-notion-x/build/third-party/collection').then((m) => m.Collection), { ssr: true }
