@@ -87,8 +87,8 @@ const Hero = ({ blockMap }) => {
             )}
           </div>
         </div>
-        <div className='w-2/5'>
-          <Avatar className='text-gray-600 dark:text-gray-300' />
+        <div className=''>
+          <Avatar className='' />
         </div>
       </div>
     </>
