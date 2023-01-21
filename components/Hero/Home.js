@@ -1,6 +1,5 @@
 import BLOG from '@/blog.config'
 import Link from 'next/link'
-import Avatar from './NotionAvatar.js'
 import Social from '../Common/Social.js'
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
