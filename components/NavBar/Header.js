@@ -91,7 +91,7 @@ const NavBar = () => {
       </ul>
 
       <ThemeSwitcher />
-      {*/
+      {/*
       <LangSwitcher />
       */}
 
