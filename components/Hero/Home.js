@@ -1,9 +1,7 @@
 import BLOG from '@/blog.config'
 import Link from 'next/link'
 import Avatar from './NotionAvatar.js'
-{/*
 import Social from '../Common/Social.js'
-*/}
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
@@ -41,7 +39,7 @@ const Hero = ({ blockMap }) => {
             recordMap={blockMap}
             components={{ Collection }}
           />
-{/* <Social /> */}
+           <Social />
           <div className='flex flex-col sm:flex-row sm:justify-center gap-4 mt-6'>
             <Link passHref href='' scroll={false}>
               <button className=''>
