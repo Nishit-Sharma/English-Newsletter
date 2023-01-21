@@ -12,7 +12,7 @@ const LangSwitcher = () => {
           aria-label='LangSwitcher'
           className=''
         >
-          <TranslateIcon className='h-5 w-5' />
+          <TranslateIcon className='' />
         </button>
       </Link>
     </>
