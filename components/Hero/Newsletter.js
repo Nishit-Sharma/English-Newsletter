@@ -46,17 +46,19 @@ const NewsletterHero = ({ blockMap }) => {
                   xmlns='http://www.w3.org/2000/svg'
                   fill='currentColor'
                   className=''
-                  viewBox='0 0 24 24'
+                  viewBox=''
                 >
-                  <path fill='none' d='M0 0h24v24H0z' />
+                  <path fill='none' d='' />
                   <path d='' />
                 </svg>
+                {/*
                 <span className=''>
                   <span className=''>
                     {t.HERO.NEWSLETTER.TG_CHANNEL}
                   </span>
                   <span className='font-medium'>@{BLOG.telegramChannelName}</span>
                 </span>
+                */}
               </button>
             </Link>
             {showCopied ? (
@@ -80,18 +82,20 @@ const NewsletterHero = ({ blockMap }) => {
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   fill='currentColor'
-                  className='text-gray-600 dark:text-day w-6 h-6'
-                  viewBox='0 0 24 24'
+                  className=''
+                  viewBox=''
                 >
                   <path fill='none' d='M0 0h24v24H0z' />
                   <path d='' />
                 </svg>
+                {/*
                 <span className=''>
                   <span className=''>
                     {t.HERO.RSS_BUTTON_DES}
                   </span>
                   <span className='font-medium'>{t.HERO.NEWSLETTER.RSS_BUTTON}</span>
                 </span>
+                */}
               </button>
             )}
           </div>
