@@ -42,6 +42,7 @@ const NewsletterHero = ({ blockMap }) => {
           <div className=''>
             <Link passHref href={BLOG.telegramChannelUrl} scroll={false}>
               <button className=''>
+                {/*
                 <svg
                   xmlns=''
                   fill=''
@@ -51,7 +52,6 @@ const NewsletterHero = ({ blockMap }) => {
                   <path fill='' d='' />
                   <path d='' />
                 </svg>
-                {/*
                 <span className=''>
                   <span className=''>
                     {t.HERO.NEWSLETTER.TG_CHANNEL}
