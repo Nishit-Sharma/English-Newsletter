@@ -40,7 +40,7 @@ const NewsletterHero = ({ blockMap }) => {
           </h2>
 
           <div className=''>
-            <Link passHref href={BLOG.telegramChannelUrl} scroll={false}>
+            <Link  scroll={false}>
               <button className=''>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
