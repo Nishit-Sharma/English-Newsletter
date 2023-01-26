@@ -35,7 +35,7 @@ const NewsletterHero = ({ blockMap }) => {
             components={{ Collection }}
           />
           <Social />
-          <h2 className='text-xl pt-8 pb-4 font-light text-gray-500 dark:text-day'>
+          <h2 className=''>
             {t.HERO.NEWSLETTER.SUBSCRIPTION_HEAD}
           </h2>
 
