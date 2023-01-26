@@ -9,7 +9,6 @@ import { ThumbUpIcon } from '@heroicons/react/outline'
 const PostFooter = () => {
   const [showPay, setShowPay] = useState(false)
   const { locale } = useRouter()
-  const router = useRouter()
   const t = lang[locale]
 
   return (
