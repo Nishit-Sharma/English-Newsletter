@@ -79,6 +79,7 @@ const NewsletterHero = ({ blockMap }) => {
                 onClick={() => clickCopy()}
                 className=''
               >
+                {/*
                 <svg
                   xmlns=''
                   fill=''
@@ -88,7 +89,6 @@ const NewsletterHero = ({ blockMap }) => {
                   <path fill='' d='' />
                   <path d='' />
                 </svg>
-                {/*
                 <span className='ml-4 flex items-start flex-col leading-none'>
                   <span className='text-xs text-gray-600 dark:text-day mb-1'>
                     {t.HERO.RSS_BUTTON_DES}
