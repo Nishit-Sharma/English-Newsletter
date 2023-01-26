@@ -5,8 +5,7 @@ import { useRouter } from 'next/router'
 import {
   UserIcon,
   UsersIcon,
-  BookOpenIcon,
-  MailIcon
+  BookOpenIcon
 } from '@heroicons/react/outline'
 import Social from '../Common/Social.js'
 import { motion } from 'framer-motion'
@@ -49,6 +48,7 @@ const Footer = ({ fullWidth }) => {
       icon: <BookOpenIcon className='inline-block mb-1 h-5 w-5' />,
       show: BLOG.pagesShow.books
     },
+    {/*
     {
       id: 3,
       name: t.NAV.CONTACT,
@@ -56,6 +56,7 @@ const Footer = ({ fullWidth }) => {
       icon: <MailIcon className='inline-block mb-1 h-5 w-5' />,
       show: BLOG.pagesShow.contact
     }
+    */}
   ]
 
   return (
