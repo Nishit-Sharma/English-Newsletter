@@ -48,7 +48,7 @@ const NewsletterHero = ({ blockMap }) => {
                   className=''
                   viewBox=''
                 >
-                  <path fill='none' d='' />
+                  <path fill='' d='' />
                   <path d='' />
                 </svg>
                 {/*
@@ -80,12 +80,12 @@ const NewsletterHero = ({ blockMap }) => {
                 className=''
               >
                 <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  fill='currentColor'
+                  xmlns=''
+                  fill=''
                   className=''
                   viewBox=''
                 >
-                  <path fill='none' d='' />
+                  <path fill='' d='' />
                   <path d='' />
                 </svg>
                 {/*
