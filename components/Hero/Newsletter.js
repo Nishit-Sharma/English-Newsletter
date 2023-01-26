@@ -76,6 +76,7 @@ const NewsletterHero = ({ blockMap }) => {
                 </span>
               </button>
             ) : (
+             {/*
               <button
                 onClick={() => clickCopy()}
                 className=''
@@ -89,7 +90,6 @@ const NewsletterHero = ({ blockMap }) => {
                   <path fill='none' d='' />
                   <path d='' />
                 </svg>
-                {/*
                 <span className=''>
                   <span className=''>
                     {t.HERO.RSS_BUTTON_DES}
@@ -101,7 +101,7 @@ const NewsletterHero = ({ blockMap }) => {
             )}
           </div>
         </div>
-        <div className='w-1/5'>
+        <div className='w-2/5'>
           <NewspaperIcon className='object-cover object-center text-gray-500 dark:text-gray-300' />
         </div>
       </div>
