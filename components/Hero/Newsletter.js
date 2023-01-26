@@ -51,12 +51,14 @@ const NewsletterHero = ({ blockMap }) => {
                   <path fill='none' d='' />
                   <path d='' />
                 </svg>
+                {/*
                 <span className=''>
                   <span className=''>
                     {t.HERO.NEWSLETTER.TG_CHANNEL}
                   </span>
                   <span className=''>@{BLOG.telegramChannelName}</span>
                 </span>
+                */}
               </button>
             </Link>
             {showCopied ? (
