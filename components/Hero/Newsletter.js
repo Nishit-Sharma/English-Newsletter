@@ -59,7 +59,7 @@ const NewsletterHero = ({ blockMap }) => {
                   <span className='font-medium'>@{BLOG.telegramChannelName}</span>
                 </span>
               </button>
-            */}
+              */}
             </Link>
             {showCopied ? (
               <button
