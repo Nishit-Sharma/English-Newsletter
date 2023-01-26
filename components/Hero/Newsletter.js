@@ -55,7 +55,7 @@ const NewsletterHero = ({ blockMap }) => {
                   <span className=''>
                     {t.HERO.NEWSLETTER.TG_CHANNEL}
                   </span>
-                  <span className='font-medium'>@{BLOG.telegramChannelName}</span>
+                  <span className=''>@{BLOG.telegramChannelName}</span>
                 </span>
               </button>
             </Link>
