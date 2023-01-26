@@ -4,7 +4,7 @@ import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
 
 import WechatPay from '@/components/Post/WechatPay'
-import { MaliIcon, ThumbUpIcon } from '@heroicons/react/outline'
+import { MailIcon, ThumbUpIcon } from '@heroicons/react/outline'
 
 const PostFooter = () => {
   const [showPay, setShowPay] = useState(false)
