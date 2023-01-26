@@ -5,7 +5,8 @@ import { useRouter } from 'next/router'
 import {
   UserIcon,
   UsersIcon,
-  BookOpenIcon
+  BookOpenIcon,
+  MailIcon
 } from '@heroicons/react/outline'
 import Social from '../Common/Social.js'
 import { motion } from 'framer-motion'
