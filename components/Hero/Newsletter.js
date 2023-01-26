@@ -35,10 +35,11 @@ const NewsletterHero = ({ blockMap }) => {
             components={{ Collection }}
           />
           <Social />
+          {/*
           <h2 className=''>
             {t.HERO.NEWSLETTER.SUBSCRIPTION_HEAD}
           </h2>
-
+          */}
           <div className=''>
             <Link passHref href={BLOG.telegramChannelUrl} scroll={false}>
               <button className=''>
