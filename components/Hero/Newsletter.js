@@ -17,6 +17,7 @@ const NewsletterHero = ({ blockMap }) => {
   const { locale } = useRouter()
   const t = lang[locale]
 
+  {/*
   const clickCopy = async () => {
     setShowCopied(true)
     navigator.clipboard.writeText(BLOG.link + '/feed')
@@ -24,6 +25,7 @@ const NewsletterHero = ({ blockMap }) => {
       setShowCopied(false)
     }, 1000)
   }
+  */}
 
   return (
     <>
@@ -76,7 +78,7 @@ const NewsletterHero = ({ blockMap }) => {
                 </span>
               </button>
             ) : (
-             {/*
+              {/*
               <button
                 onClick={() => clickCopy()}
                 className=''
