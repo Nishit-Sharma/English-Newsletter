@@ -17,7 +17,6 @@ const NewsletterHero = ({ blockMap }) => {
   const { locale } = useRouter()
   const t = lang[locale]
 
-  {/*
   const clickCopy = async () => {
     setShowCopied(true)
     navigator.clipboard.writeText(BLOG.link + '/feed')
@@ -25,7 +24,6 @@ const NewsletterHero = ({ blockMap }) => {
       setShowCopied(false)
     }, 1000)
   }
-  */}
 
   return (
     <>
@@ -46,7 +44,7 @@ const NewsletterHero = ({ blockMap }) => {
             <Link passHref href={BLOG.telegramChannelUrl} scroll={false}>
               <button className=''>
                 <svg
-                  xmlns='http://www.w3.org/2000/svg'
+                  xmlns=''
                   fill='currentColor'
                   className=''
                   viewBox=''
@@ -78,13 +76,13 @@ const NewsletterHero = ({ blockMap }) => {
                 </span>
               </button>
             ) : (
-              {/*
+ 
               <button
                 onClick={() => clickCopy()}
                 className=''
               >
                 <svg
-                  xmlns='http://www.w3.org/2000/svg'
+                  xmlns=''
                   fill='currentColor'
                   className=''
                   viewBox=''
@@ -92,6 +90,7 @@ const NewsletterHero = ({ blockMap }) => {
                   <path fill='none' d='' />
                   <path d='' />
                 </svg>
+                {/*
                 <span className=''>
                   <span className=''>
                     {t.HERO.RSS_BUTTON_DES}
