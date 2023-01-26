@@ -40,8 +40,7 @@ const NewsletterHero = ({ blockMap }) => {
           </h2>
 
           <div className='flex flex-col sm:flex-row sm:justify-center gap-4'>
-            <Link passHref scroll={false}>
-              {/*
+            <Link passHref href=" scroll={false}>
               <button className='bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 inline-flex py-3 px-5 rounded-lg items-center'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -59,7 +58,6 @@ const NewsletterHero = ({ blockMap }) => {
                   <span className='font-medium'>@{BLOG.telegramChannelName}</span>
                 </span>
               </button>
-              */}
             </Link>
             {showCopied ? (
               <button
@@ -98,7 +96,7 @@ const NewsletterHero = ({ blockMap }) => {
             )}
           </div>
         </div>
-        <div className='w-2/5'>
+        <div className='w-1/5'>
           <NewspaperIcon className='object-cover object-center text-gray-500 dark:text-gray-300' />
         </div>
       </div>
