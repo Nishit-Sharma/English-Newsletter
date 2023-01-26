@@ -40,6 +40,7 @@ const NewsletterHero = ({ blockMap }) => {
           </h2>
 
           <div className='flex flex-col sm:flex-row sm:justify-center gap-4'>
+            {/*
             <Link passHref href={BLOG.telegramChannelUrl} scroll={false}>
               <button className='bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 inline-flex py-3 px-5 rounded-lg items-center'>
                 <svg
@@ -59,6 +60,7 @@ const NewsletterHero = ({ blockMap }) => {
                 </span>
               </button>
             </Link>
+            */}
             {showCopied ? (
               <button
                 disabled
