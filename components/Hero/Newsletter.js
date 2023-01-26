@@ -96,8 +96,8 @@ const NewsletterHero = ({ blockMap }) => {
                   </span>
                   <span className='font-medium'>{t.HERO.NEWSLETTER.RSS_BUTTON}</span>
                 </span>
-                */}
               </button>
+             */}
             )}
           </div>
         </div>
