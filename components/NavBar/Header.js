@@ -100,7 +100,7 @@ const NavBar = () => {
           onClick={() => setShowMenu((showMenu) => !showMenu)}
           className='hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer rounded-lg block p-2 -mr-3 md:pb-3'
         >
-          <MenuIcon className='inline-block mb-1 h-5 w-5' />
+          <MenuIcon className='' />
         </button>
         {showMenu && (
           <div className='absolute right-0 w-40 mr-4 mt-2 origin-top-right bg-white dark:bg-gray-700 divide-y divide-gray-200 dark:divide-gray-600 rounded-md shadow-lg outline-none'>
