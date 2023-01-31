@@ -21,7 +21,7 @@ Notionic is a static blog that updates in real time, synchronizing changes to No
 
 
 
-## Reference & License
+## Reference & Licenses
 
 - [Notion-X](https://github.com/NotionX/react-notion-x)
 - [Nobelium](https://github.com/craigary/nobelium)
