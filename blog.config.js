@@ -2,7 +2,7 @@ const BLOG = {
   title: 'Mohrles Musings',
   author: 'Nishit, Precious, Reihan, Chris, Gia',
   email: 'nishit.sharma@mcvts.org',
-  link: 'https://english-newsletter.vercel.app',
+  link: 'https://english-newsletter-mp2.vercel.app',
   newsletter: 'Mohrles Musings',
   description: 'A reflection on Marking Period 2',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
